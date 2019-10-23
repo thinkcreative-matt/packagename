@@ -1,0 +1,28 @@
+{
+    "name": "thinkcreative/blank-package",
+    "description": "This is a placeholder for the packages we will build",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Matthew Butler",
+            "email": "matthew@thinkcreative.uk.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "thinkcreative\\PackageName\\": "src"
+        }
+    },
+    "extra" : {
+        "laravel": {
+            "providers" : [
+                "Thinkcreative\\PackageName\\ServiceProvider"
+            ],
+            "aliases": {
+                "PackageName" : "Thinkcreative\\PackageName\\Facade"
+            }
+        }
+    }
+}
