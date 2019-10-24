@@ -1,10 +1,15 @@
 <?php 
 
+if(! function_exists('score')) {
 
+	function score() 
+	{
 
-public function score() 
-{
+		$try = app('blankz');
 
-	return '1-0';
+		dd($try);
 
+		return '1-0';
+
+	}
 }
