@@ -14,7 +14,7 @@ class BlankServiceProvider extends ServiceProvider
 	public function boot() 
 	{
 		$this->publishes([
-			__DIR__.'/config/packageName.php' => config_path('packageName.php')
+			__DIR__.'/../config/packageName.php' => config_path('packageName.php')
 		]);
 
 		// Register any CSS
@@ -33,7 +33,7 @@ class BlankServiceProvider extends ServiceProvider
 		// ], 'public');
 
 
-		$this->loadRoutesFrom(__DIR__.'/routes/');
+		$this->loadRoutesFrom(__DIR__.'/../routes/');
 
 		// $this->loadMigrationsFrom(__DIR__.'/database/migrations');
 
