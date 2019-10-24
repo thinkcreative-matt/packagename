@@ -12,7 +12,10 @@
     "autoload": {
         "psr-0": {
             "Thinkcreative\\Blankpackage\\": "src"
-        }
+        },
+        "files": [
+            "src/Thinkcreative/Blankpackage/functions.php"
+        ]
     },
     "extra" : {
         "laravel": {
