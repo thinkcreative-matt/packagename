@@ -1,7 +1,6 @@
 {
     "name": "thinkcreative/blankpackage",
     "description": "This is a placeholder for the packages we will build",
-    "type": "project",
     "authors": [
         {
             "name": "Matthew Butler",
