@@ -18,26 +18,26 @@ class BlankServiceProvider extends ServiceProvider
 		]);
 
 		// Register any CSS
-		$this->publishes([
-			__DIR__.'/resources/css' => public_path('vendor/packagename')
-		], 'public');
+		// $this->publishes([
+		// 	__DIR__.'/resources/css' => public_path('vendor/packagename')
+		// ], 'public');
 
 		//  Register and JS. 
-		$this->publishes([
-			__DIR__.'/resources/js' => public_path('vendor/packagename')
-		], 'public');
+		// $this->publishes([
+		// 	__DIR__.'/resources/js' => public_path('vendor/packagename')
+		// ], 'public');
 
 		//  Register any images
-		$this->publishes([
-			__DIR__.'/resources/images' => public_path('vendor/packagename')
-		], 'public');
+		// $this->publishes([
+		// 	__DIR__.'/resources/images' => public_path('vendor/packagename')
+		// ], 'public');
 
 
-		$this->loadRoutesFrom(__DIR__.'/routes/routes.php');
+		$this->loadRoutesFrom(__DIR__.'/../../routes/');
 
-		$this->loadMigrationsFrom(__DIR__.'/database/migrations');
+		// $this->loadMigrationsFrom(__DIR__.'/database/migrations');
 
-		$this->loadViewsFrom(__DIR__.'/resources/views');
+		// $this->loadViewsFrom(__DIR__.'../../resources/views');
 
 		// Register any commands for use in the CLI
 		// Uncomment for use.
