@@ -11,8 +11,8 @@
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "psr-4": {
-            "thinkcreative\\PackageName\\": "src"
+        "psr-0": {
+            "Thinkcreative\\PackageName\\": "src"
         }
     },
     "extra" : {
