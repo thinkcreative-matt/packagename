@@ -63,7 +63,7 @@ class BlankServiceProvider extends ServiceProvider
 			return new Blank();
 		});
 
-		$this->app->alias(Blank::class, 'blank');
+		$this->app->alias(Blank::class, 'blankz');
 	}
 
 }
