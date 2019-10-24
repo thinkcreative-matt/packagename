@@ -1,6 +1,6 @@
 <?php 
 
-namespace Thinkcreative\Blank;
+namespace Thinkcreative\Blankpackage;
 
 use Illuminate\Suppoort\Facades\Facade;
 

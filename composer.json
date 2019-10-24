@@ -1,5 +1,5 @@
 {
-    "name": "thinkcreative/packagename",
+    "name": "thinkcreative/blankpackage",
     "description": "This is a placeholder for the packages we will build",
     "type": "project",
     "authors": [
@@ -12,16 +12,16 @@
     "require": {},
     "autoload": {
         "psr-0": {
-            "Thinkcreative\\PackageName\\": "src"
+            "Thinkcreative\\Blankpackage\\": "src"
         }
     },
     "extra" : {
         "laravel": {
             "providers" : [
-                "Thinkcreative\\Blank\\BlankServiceProvider"
+                "Thinkcreative\\Blankpackage\\BlankServiceProvider"
             ],
             "aliases": {
-                "Blank" : "Thinkcreative\\PackageName\\Blank"
+                "Blank" : "Thinkcreative\\Blankpackage\\Blank"
             }
         }
     }

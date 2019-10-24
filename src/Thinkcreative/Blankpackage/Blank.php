@@ -1,6 +1,6 @@
 <?php 
 
-namespace ThinkCreative\Blank;
+namespace Thinkcreative\Blankpackage;
 
 class Blank 
 {
