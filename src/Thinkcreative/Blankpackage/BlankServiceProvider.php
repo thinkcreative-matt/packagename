@@ -33,7 +33,7 @@ class BlankServiceProvider extends ServiceProvider
 		// ], 'public');
 
 
-		$this->loadRoutesFrom(__DIR__ . '/../../routes');
+		$this->loadRoutesFrom(__DIR__ . '/../../routes/routes.php');
 
 		// $this->loadMigrationsFrom(__DIR__.'/database/migrations');
 
