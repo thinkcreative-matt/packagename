@@ -14,12 +14,12 @@ class BlankServiceProvider extends ServiceProvider
 	public function boot() 
 	{
 		$this->publishes([
-			__DIR__.'/config/packageName.php' => config_path('packageName.php')
+			__DIR__.'../../config/packageName.php' => config_path('packageName.php')
 		]);
 
 		// Register any CSS
 		// $this->publishes([
-		// 	__DIR__.'/resources/css' => public_path('vendor/packagename')
+		// 	__DIR__.'/../../resources/css' => public_path('vendor/packagename')
 		// ], 'public');
 
 		//  Register and JS. 
