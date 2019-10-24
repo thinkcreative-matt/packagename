@@ -9,7 +9,7 @@ class BlankFacade extends Facade
 
 	protected static function getFacadeAccessor()
 	{
-		return 'package-name';
+		return 'blank';
 	}
 
 }

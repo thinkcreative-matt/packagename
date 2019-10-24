@@ -59,11 +59,11 @@ class BlankServiceProvider extends ServiceProvider
      */
 	public function register()
 	{
-		$this->app->singleton(PackageName::class, function() {
-			return new PackageName();
+		$this->app->singleton(Blank::class, function() {
+			return new Blank();
 		});
 
-		$this->app->alias(PackageName::class, 'package-name');
+		$this->app->alias(Blank::class, 'blank');
 	}
 
 }
