@@ -1,10 +1,10 @@
 <?php 
 
-namespace Thinkcreative\PackageName;
+namespace Thinkcreative\Blank;
 
 use Illuminate\Support\ServiceProvider;
 
-class PackageNameServiceProvider extends ServiceProvider
+class BlankServiceProvider extends ServiceProvider
 {
 	/**
      * Bootstrap the application services.
@@ -19,17 +19,17 @@ class PackageNameServiceProvider extends ServiceProvider
 
 		// Register any CSS
 		$this->publishes([
-			__DIR__.'/resources/css' => public_path('vendor/packagename');
+			__DIR__.'/resources/css' => public_path('vendor/packagename')
 		], 'public');
 
 		//  Register and JS. 
 		$this->publishes([
-			__DIR__.'/resources/js' => public_path('vendor/packagename');
+			__DIR__.'/resources/js' => public_path('vendor/packagename')
 		], 'public');
 
 		//  Register any images
 		$this->publishes([
-			__DIR__.'/resources/images' => public_path('vendor/packagename');
+			__DIR__.'/resources/images' => public_path('vendor/packagename')
 		], 'public');
 
 

@@ -1,10 +1,10 @@
 <?php 
 
-namespace Thinkcreative\PackageName;
+namespace Thinkcreative\Blank;
 
 use Illuminate\Suppoort\Facades\Facade;
 
-class PackageNameFacade extends Facade
+class BlankFacade extends Facade
 {
 
 	protected static function getFacadeAccessor()

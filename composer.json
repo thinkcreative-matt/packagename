@@ -18,10 +18,10 @@
     "extra" : {
         "laravel": {
             "providers" : [
-                "Thinkcreative\\PackageName\\PackageNameServiceProvider"
+                "Thinkcreative\\Blank\\BlankServiceProvider"
             ],
             "aliases": {
-                "PackageName" : "Thinkcreative\\PackageName\\Facade"
+                "Blank" : "Thinkcreative\\PackageName\\Blank"
             }
         }
     }

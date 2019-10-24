@@ -1,8 +1,8 @@
 <?php 
 
-namespace Thinkcreative\PackageName;
+namespace ThinkCreative\Blank;
 
-class PackageName 
+class Blank 
 {
 
 	/**
